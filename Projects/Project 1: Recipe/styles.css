@@ -1,0 +1,30 @@
+* {
+    font-family:"Times New Roman", sans-serif;
+}
+
+a {
+    background-color: lightsalmon;
+    font-size:30px;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1, h2 {
+    color: darkblue;
+}
+
+.steps {
+    font-weight:bold;
+    color:blueviolet;
+}
+
+#recipe {
+    background-color: greenyellow;
+}
