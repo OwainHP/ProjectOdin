@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Function library example</title>
+  <style>
+    input {
+      font-size: 2em;
+      margin: 10px 1px 0;
+    }
+  </style>
+  </head>
+<body>
+
+  <input class="numberInput" type="text">
+  <p></p>
+
+  <script>
+
+
+function add7 () {
+  let num1 = 7;
+  let num2 = 8;
+  let num3 = num1+num2;
+  return num3;
+}
+function multiply () {
+  let num1 = 7;
+  let num2 = 8;
+  let num3 = num1*num2;
+  return num3;
+}
+
+function capitalize (word) {
+  let firstLetter = word.charAt(0);
+  let capitalize = firstLetter.toUpperCase();
+  let afterFirst = word.slice(1);
+  let lowerCase = afterFirst.toLowerCase();
+  return capitalize + lowerCase;
+}
+
+function lastLetter (abcd) {
+  let last = abcd.slice(-1);
+  return last;
+}
+  </script>
+</body>
+</html>

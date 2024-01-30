@@ -1,11 +1,14 @@
 * {
     font-family:"Times New Roman", sans-serif;
+    margin:0px;
+    padding: 0px;
 }
 
 a {
     background-color: lightsalmon;
     font-size:30px;
-
+    display:flex;
+    margin:10px;
 }
 
 h1 {
